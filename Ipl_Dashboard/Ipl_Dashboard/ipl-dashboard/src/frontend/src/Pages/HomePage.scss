@@ -1,0 +1,33 @@
+.HomePage{
+
+    
+    .header-section{
+        padding: 30px;
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+        color: rgb(81, 139, 0);
+    }
+    
+    .team-grid{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 20px;
+
+        .name{
+            height: 150px;
+            border: 1px solid white;
+            border-radius: 5px;
+            text-align: center;
+
+            & > h2{
+                margin-top: 50px;
+            }
+
+        }
+
+    
+    }
+}
